@@ -810,7 +810,6 @@ section {
     font-size: 1.1em;
     font-weight: 600;
     color: var(--accent);
-    /* Accent color */
     padding: 8px 20px;
     border: 2px solid var(--accent);
     border-radius: 8px;
