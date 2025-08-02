@@ -699,8 +699,6 @@ h1 {
     background-color: #0891b2;
 }
 
-
-
 .system-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
@@ -820,6 +818,7 @@ h1 {
 .system-card-video video {
     width: 100%;
     height: auto;
+    aspect-ratio: 16 / 9;
     border-radius: 8px;
 }
 
