@@ -776,6 +776,7 @@ h1 {
     margin-top: 40px;
     max-width: 100%;
     width: 100%;
+    padding: 0 40px;
 }
 
 .system-card {
