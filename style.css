@@ -992,6 +992,24 @@ section {
     margin-bottom: 10px;
 }
 
+@media (min-width: 769px) {
+    .hero-container {
+        height: 70vh;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .description {
+        font-size: 1.2rem;
+    }
+
+    .content-inner {
+        padding: 3rem 2rem;
+    }
+}
+
 @media (max-width: 768px) {
     .case-study-content {
         flex-direction: column;
@@ -1030,22 +1048,6 @@ section {
 
     .system-cards {
         justify-content: center;
-    }
-
-    .hero-container {
-        height: 70vh;
-    }
-
-    h1 {
-        font-size: 3.5rem;
-    }
-
-    .description {
-        font-size: 1.2rem;
-    }
-
-    .content-inner {
-        padding: 3rem 2rem;
     }
 
     .hero-container {
