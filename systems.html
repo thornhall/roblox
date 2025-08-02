@@ -8,12 +8,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Fira+Code&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body class="system-body">
     <div id="shared-nav"></div>
     <script src="injectNav.js" defer></script>
+
     <section id="hero" class="hero-section">
         <div class="hero-content">
             <h1>Roblox Systems I've Built</h1>
@@ -28,52 +28,35 @@
                 <h3>Combat System</h3>
                 <p>Wizard spellcasting combat system that integrates an Action Queue.</p>
             </div>
-
             <div class="system-card">
                 <h3>Quest System</h3>
                 <p>Quests which allow the player to complete objectives, easily extensible for new quest objective
                     types.</p>
             </div>
-
             <div class="system-card">
                 <h3>Armor System</h3>
                 <p>Dynamically load equipped in-game player armor or gear onto the avatar when they join or respawn</p>
             </div>
-
             <div class="system-card">
                 <h3>Staff & Spell Equip System</h3>
                 <p>Allows the player to equip a weapon via their inventory menu. Spells can be allocated to a custom
                     hotbar.</p>
             </div>
-
             <div class="system-card">
                 <h3>Spell System</h3>
                 <p>A data-driven system for defining spells that makes adding a new spell incredibly simple.</p>
             </div>
-
             <div class="system-card">
                 <h3>In-Game Shop System</h3>
-                <p>Allows the player buy and sell in-game items using in-game currency. New shops are simple to add.</p>
+                <p>Allows the player to buy and sell in-game items using in-game currency. New shops are simple to add.
+                </p>
             </div>
-
-            <div class="system-card">
-                <h3></h3>
-                <p>Dynamic quest system with branching narratives and player rewards.</p>
-            </div>
-
-            <div class="system-card">
-                <h3>Quest System</h3>
-                <p>Dynamic quest system with branching narratives and player rewards.</p>
-            </div>
-
-
             <div class="system-card">
                 <h3>VFX System</h3>
                 <p>Real-time VFX system optimized for performance across multiple devices.</p>
             </div>
         </div>
     </section>
-
 
     <section id="combat-case-study" class="case-study">
         <div class="case-study-header">
@@ -90,16 +73,10 @@
                 </a>
             </div>
             <div class="case-study-description">
-                <h3>Problem</h3>
-                <p>Players need a dynamic combat system that feels engaging and responsive...</p>
-
-                <h3>Solution</h3>
-                <p>Used a state-machine based approach with automatic targeting...</p>
-
-                <h3>Challenges</h3>
-                <p>Optimized for mobile performance while keeping fluid animations...</p>
-
-                <h3>Tools & Technologies Used</h3>
+                <h3>How the Combat System Works</h3>
+                <p>Players need a dynamic combat system that feels engaging and responsive. We implemented an action
+                    queue and auto-targeting feature for smooth combat. Using a state-machine based approach, the system
+                    manages spells, enemy AI, and player actions seamlessly.</p>
                 <ul>
                     <li>ProfileStore for player data management</li>
                     <li>Custom animation handling</li>
@@ -109,74 +86,9 @@
         </div>
     </section>
 
-
-
-    <!-- Quest System Case Study -->
-    <section id="quest-case-study" class="case-study">
-        <div class="case-study-header">
-            <h2>Quest System Case Study</h2>
-            <p>Designing and implementing a dynamic quest system with multiple paths and player-driven outcomes.</p>
-        </div>
-        <div class="case-study-content">
-            <div class="case-study-video">
-                <iframe src="https://gyazo.com/your-gyazo-video-id/embed" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="case-study-description">
-                <h3>Problem</h3>
-                <p>Creating a system that allows players to choose different quests with multiple narrative outcomes...
-                </p>
-
-                <h3>Solution</h3>
-                <p>Built using an event-driven approach with server-client communication for quest tracking...</p>
-
-                <h3>Challenges</h3>
-                <p>Ensuring smooth synchronization across multiple players while keeping the server lightweight...</p>
-
-                <h3>Tools & Technologies Used</h3>
-                <ul>
-                    <li>Event-driven system</li>
-                    <li>ProfileStore integration</li>
-                    <li>Custom UI elements for quest tracking</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- VFX System Case Study -->
-    <section id="vfx-case-study" class="case-study">
-        <div class="case-study-header">
-            <h2>VFX System Case Study</h2>
-            <p>Developing a real-time VFX system optimized for multiplayer games.</p>
-        </div>
-        <div class="case-study-content">
-            <div class="case-study-video">
-                <iframe src="https://gyazo.com/your-gyazo-video-id/embed" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <div class="case-study-description">
-                <h3>Problem</h3>
-                <p>Rendering high-quality VFX without overloading the game on lower-end devices...</p>
-
-                <h3>Solution</h3>
-                <p>Created an efficient VFX system with client-side rendering and server sync for multiplayer
-                    scenarios...</p>
-
-                <h3>Challenges</h3>
-                <p>Maintaining frame rate consistency while dealing with a large number of VFX in real-time...</p>
-
-                <h3>Tools & Technologies Used</h3>
-                <ul>
-                    <li>Efficient particle systems</li>
-                    <li>Client-side VFX rendering</li>
-                    <li>CollectionService for VFX management</li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
     <div class="footer">
         &copy; 2025 Thorn Hall. All rights reserved.
     </div>
-
 </body>
 
 </html>
