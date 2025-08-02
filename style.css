@@ -857,10 +857,7 @@ h1 {
 @media (max-width: 768px) {
     .system-cards {
         grid-template-columns: 1fr;
-    }
-
-    .system-card {
-        width: 100%;
+        padding: 20px,
     }
 
     .system-card-video {
