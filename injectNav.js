@@ -11,14 +11,14 @@ async function injectNav() {
             const expanded = burger.getAttribute('aria-expanded') === 'true';
             burger.setAttribute('aria-expanded', expanded ? 'false' : 'true');
             mobile.classList.toggle('open');
-        });
+        }, { passive: true });
 
         const links = mobile.querySelectorAll('a');
         links.forEach(link => {
             link.addEventListener('click', () => {
                 mobile.classList.remove('open');
                 burger.setAttribute('aria-expanded', 'false');
-            });
+            }, { passive: true });
         });
     }
 }
