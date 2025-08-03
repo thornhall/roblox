@@ -758,6 +758,12 @@ h1 {
     font-size: 3em;
 }
 
+.hero-content h1 {
+    max-width: 960px;
+    margin: auto;
+    color: white,
+}
+
 .hero-content {
     max-width: 960px;
     margin: auto;
