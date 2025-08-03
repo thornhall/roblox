@@ -41,10 +41,9 @@ body {
     }
 }
 
-/* Navigation */
 nav {
     max-width: 960px;
-    margin: 0 auto 2rem;
+    margin: 1rem auto 2rem;
     padding: 0 1rem;
 }
 
