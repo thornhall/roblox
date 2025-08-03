@@ -586,6 +586,7 @@ h1 {
     gap: 2rem;
     justify-content: center;
     align-items: center;
+    justify-items: center;
 }
 
 .service-card {
