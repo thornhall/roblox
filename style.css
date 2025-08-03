@@ -136,6 +136,8 @@ h1 {
     font-size: 2rem;
     color: var(--accent);
     margin-bottom: 1rem;
+    align-items: center;
+    justify-content: center;
 }
 
 .description {
@@ -578,13 +580,14 @@ h1 {
 }
 
 .service-card {
-    background: #fff;
+    background: #000000;
     border-top: 4px solid var(--accent);
     border-radius: 10px;
     padding: 2rem;
     box-shadow: 0 6px 20px -4px rgba(0, 0, 0, 0.2);
     position: relative;
     overflow: hidden;
+    margin: 1rem,
 }
 
 .service-card:hover {
