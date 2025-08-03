@@ -573,23 +573,18 @@ h1 {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1.5rem;
-    max-width: 1200px;
-    width: 100%;
-    justify-items: center;
-    margin-top: 2rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
 }
 
 .service-card {
-    background-color: inherit;
-    padding: 1.5rem;
+    background: #fff;
+    border-top: 4px solid var(--accent);
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    color: white;
-    width: 100%;
-    max-width: 350px;
+    padding: 2rem;
+    box-shadow: 0 6px 20px -4px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
 .service-card:hover {
@@ -615,6 +610,30 @@ h1 {
     color: #ffffff;
     margin-top: 0.5rem;
     text-align: center;
+}
+
+.service-card h3 {
+    margin: 0 0 1rem;
+    padding-bottom: 0.5rem;
+    position: relative;
+}
+
+.service-card h3::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 4px;
+    background: var(--accent);
+    border-radius: 2px;
+}
+
+.service-icon {
+    display: block;
+    font-size: 2rem;
+    color: var(--accent);
+    margin-bottom: 1rem;
 }
 
 .heading-services {
@@ -925,5 +944,9 @@ h1 {
 
     .hero-img {
         object-position: top center;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
     }
 }
