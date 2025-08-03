@@ -590,7 +590,7 @@ h1 {
 }
 
 .service-card {
-    background: #2d2d2d;
+    background: #1d1f1f;
     border-top: 4px solid var(--accent);
     border-radius: 10px;
     padding: 2rem;
