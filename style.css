@@ -600,6 +600,8 @@ h1 {
     text-align: center;
     width: 100%;
     max-width: 300px;
+    max-height: 350px;
+    min-height: 350px;
 }
 
 .service-card:hover {
