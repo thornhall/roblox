@@ -622,17 +622,6 @@ h1 {
     position: relative;
 }
 
-.service-card h3::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 70%;
-    height: 4px;
-    background: var(--accent);
-    border-radius: 2px;
-}
-
 .service-icon {
     display: block;
     font-size: 2rem;
