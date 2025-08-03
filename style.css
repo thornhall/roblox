@@ -626,8 +626,9 @@ h1 {
 
 .service-card h3 {
     margin: 0 0 1rem;
-    padding-bottom: 0.5rem;
-    position: relative;
+    display: inline-block;
+    border-bottom: 4px solid var(--accent);
+    padding-bottom: 0.25rem;
 }
 
 .service-icon {
