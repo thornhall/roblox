@@ -588,7 +588,7 @@ h1 {
 }
 
 .service-card {
-    background: #3e3e3e;
+    background: #2d2d2d;
     border-top: 4px solid var(--accent);
     border-radius: 10px;
     padding: 2rem;
@@ -628,7 +628,6 @@ h1 {
 .service-card h3 {
     margin: 0 0 1rem;
     display: inline-block;
-    border-bottom: 4px solid var(--accent);
     padding-bottom: 0.25rem;
 }
 
