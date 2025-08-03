@@ -759,9 +759,7 @@ h1 {
 }
 
 .hero-content h1 {
-    max-width: 960px;
-    margin: auto;
-    color: white,
+    color: white;
 }
 
 .hero-content {
