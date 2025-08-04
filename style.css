@@ -869,6 +869,7 @@ h1 {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
     gap: 1rem;
     margin-bottom: 1rem;
 }
