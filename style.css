@@ -989,4 +989,8 @@ h1 {
     .services-grid {
         grid-template-columns: 1fr;
     }
+
+    .services-page {
+        padding: 2.5rem;
+    }
 }
