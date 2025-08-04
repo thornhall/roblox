@@ -868,7 +868,7 @@ h1 {
 .social-links {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 1rem;
     margin-bottom: 1rem;
