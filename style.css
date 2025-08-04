@@ -970,8 +970,8 @@ h1 {
     }
 
     .hero-container {
-        height: 70vh;
-        min-height: 600px;
+        height: 65vh;
+        min-height: 500px;
     }
 
     h1 {
