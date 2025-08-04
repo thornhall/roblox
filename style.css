@@ -893,6 +893,11 @@ h1 {
     color: var(--accent);
 }
 
+.discord-logo-img {
+    background-color: white;
+    background: white;
+}
+
 @media (min-width: 769px) {
     .hero-container {
         height: 70vh;
