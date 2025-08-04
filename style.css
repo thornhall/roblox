@@ -865,6 +865,32 @@ h1 {
     pointer-events: none;
 }
 
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social-links a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+
+.social-links a img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.discord-username {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: var(--text);
+}
+
 @media (min-width: 769px) {
     .hero-container {
         height: 70vh;
