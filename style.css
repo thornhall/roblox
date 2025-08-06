@@ -907,7 +907,6 @@ h1 {
 .logo-container {
     display: flex;
     justify-content: flex-end;
-    padding-right: 1rem;
 }
 
 .heading-container {
@@ -924,7 +923,7 @@ h1 {
     margin: 0.5em 0;
     white-space: normal;
     flex-basis: min-content;
-    min-width: 240px;
+    min-width: 300px;
 }
 
 .h1-logo,
