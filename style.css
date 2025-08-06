@@ -265,8 +265,6 @@ h1 {
     text-align: center;
     font-size: 0.875rem;
     color: var(--muted);
-    padding: 2rem 0;
-    margin-top: 4rem;
 }
 
 .divider {
@@ -896,6 +894,45 @@ h1 {
 .discord-logo-img {
     background-color: white;
     background: white;
+}
+
+.heading-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 1rem;
+}
+
+.heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 1em;
+}
+
+.site-title {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 0.5em 0;
+    white-space: normal;
+    flex-basis: min-content;
+    min-width: 240px;
+}
+
+.h1-logo,
+.nav-logo {
+    width: 60px;
+    height: 2em;
+    object-fit: contain;
 }
 
 @media (min-width: 769px) {
