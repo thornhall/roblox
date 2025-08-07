@@ -1,5 +1,5 @@
 async function injectNav() {
-    const resp = await fetch('nav.html');
+    const resp = await fetch('/nav.html');
     if (!resp.ok) return;
     const html = await resp.text();
     document.getElementById('shared-nav').innerHTML = html;
